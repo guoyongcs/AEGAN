@@ -31,10 +31,8 @@ python two-stage_train.py --dataset flowers --dataroot your_images_folder --batc
 python two-stage_train.py --dataset name_o_dataset --dataroot path_of_dataset
 ```
 
-## Sampling
 
-
-## Validation
+## Evaluation Metrics
 
 - Calculate the Inception Score
 ```
