@@ -47,12 +47,8 @@ pythono msssim.py --data_path=folder_of_generated_images --log_name=log
 
 ![ ](./images/detail_face.png  "Detail Faces")
 
-## Compared with baselines
 
-![ ](./images/comparison_fb.png  "Flowers and Birds")
+## The details of the model
 
-
-![ ](./images/comparison_face.png  "Face")
-
-
+![ ](./images/G_E.png  "G_E")
 
