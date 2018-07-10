@@ -13,13 +13,13 @@ Pytorch
 ## Dataset
 In our paper, to sample different images, we train our model on four datasets, respectively.
 
-- Oxford-102 Flowers dataset. Download from
+- Download [Oxford-102 Flowers](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/)  dataset.
 
-- Caltech-UCSD Birds (CUB). Download from
+- Download [Caltech-UCSD Birds (CUB) ](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) dataset.
 
-- Large-scale CelebFaces Attributes (CelebA). Download from
+- Download [Large-scale CelebFaces Attributes (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)  dataset.
 
-- Large-scale Scene Understanding (LSUN). Download from
+- Download [ Large-scale Scene Understanding (LSUN) ](http://lsun.cs.princeton.edu/2016/)  dataset.
 
 ## Training
 - Train AEGAN on Oxford-102 Flowers dataset.
