@@ -2,7 +2,7 @@
 
 Pytorch implementation for producing AEGAN results in the paper “Auto-Embedding Generative Adversarial Networks for High Resolution Image Synthesis”
 
-![ ](/home/chenqi/Desktop/source_code/AEGAN/images/embgan-net.png  "Architecture")
+![ ](./images/embgan-net.png  "Architecture")
 
 
 ## Dependencies
@@ -50,10 +50,10 @@ pythono msssim.py --data_path=folder_of_generated_images --log_name=log
 
 ## Compared with baselines
 
-![ ](/home/chenqi/Desktop/source_code/AEGAN/images/comparison_fb.png  "Flowers and Birds")
+![ ](./images/comparison_fb.png  "Flowers and Birds")
 
 
-![ ](/home/chenqi/Desktop/source_code/AEGAN/images/comparison_face.png  "Face")
+![ ](./images/comparison_face.png  "Face")
 
 
 
