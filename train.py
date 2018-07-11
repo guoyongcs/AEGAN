@@ -14,8 +14,7 @@ import torchvision.utils as vutils
 from torch.autograd import Variable
 import torch.nn.functional as F
 
-from RS_model_separated import _netG1, _netD1, _netG2, _netD2, _netRS
-from model_refiner import _RefinerG, _RefinerD
+from model import _netG1, _netD1, _netG2, _netD2, _netRS, _RefinerG, _RefinerD
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', required=True, help='cifar10 | lsun | imagenet | folder | lfw ')
