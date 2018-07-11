@@ -24,11 +24,11 @@ In our paper, to sample different images, we train our model on four datasets, r
 ## Training
 - Train AEGAN on Oxford-102 Flowers dataset.
 ```
-python two-stage_train.py --dataset flowers --dataroot your_images_folder --batchSize 16 --imageSize 512 --niter_stage1 100 --niter_stage2 1000 --cuda --outf your_images_output_folder --gpu 3
+python train.py --dataset flowers --dataroot your_images_folder --batchSize 16 --imageSize 512 --niter_stage1 100 --niter_stage2 1000 --cuda --outf your_images_output_folder --gpu 3
 ```
 - If you want to train the model on Caltech-UCSD Birds (CUB), Large-scale CelebFaces Attributes (CelebA), Large-scale Scene Understanding (LSUN) or your own dataset. Just replace the hyperparameter like these:
 ```
-python two-stage_train.py --dataset name_o_dataset --dataroot path_of_dataset
+python train.py --dataset name_o_dataset --dataroot path_of_dataset
 ```
 
 
