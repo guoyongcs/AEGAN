@@ -50,5 +50,19 @@ pythono msssim.py --data_path=folder_of_generated_images --log_name=log
 
 ## The details of the model
 
+To synthesize embedding of 32x32x64, we use a generator G<sub>E</sub> (left) and a discriminator D<sub>E</sub> (right) with four convoluion layers, respectively.
+
 ![ ](./images/G_E.png  "G_E")
+
+The structure of the auto-encoder model contains a encoder H (righ) and  a decoder F (left).
+
+![ ](./images/F_H.png  "F_H")
+
+The sturcture of denoiser network includes a encoder-decoder network (left) and a discriminator D<sub>R</sub> (right).
+
+![ ](./images/denoiser.png  "denoiser")
+
+
+
+
 
