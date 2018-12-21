@@ -21,6 +21,8 @@ In our paper, to sample different images, we train our model on four datasets, r
 
 - Download [ Large-scale Scene Understanding (LSUN) ](http://lsun.cs.princeton.edu/2016/)  dataset.
 
+- Download [ Imagenet ](http://www.image-net.org/)  dataset.
+
 ## Training
 - Train AEGAN on Oxford-102 Flowers dataset.
 ```
