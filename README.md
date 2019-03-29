@@ -1,12 +1,12 @@
 ## AEGAN
 
-Pytorch implementation for producing AEGAN results in the paper “Auto-Embedding Generative Adversarial Networks for High Resolution Image Synthesis”
+Pytorch implementation for “Auto-Embedding Generative Adversarial Networks for High Resolution Image Synthesis”
 
 ![ ](./images/embgan-net.png  "Architecture")
 
 
 ## Dependencies
-python 2.7
+Python 2.7
 
 Pytorch
 
