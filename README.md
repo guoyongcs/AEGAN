@@ -62,7 +62,17 @@ The sturcture of denoiser network includes a encoder-decoder network (left) and 
 
 ![ ](./images/denoiser.png  "denoiser")
 
+## Citation
 
+If you use any part of this code in your research, please cite our paper:
 
-
+```
+@article{guo2019auto,
+  title={Auto-Embedding Generative Adversarial Networks for High Resolution Image Synthesis},
+  author={Guo, Yong and Chen, Qi and Chen, Jian and Wu, Qingyao and Shi, Qinfeng and Tan, Mingkui},
+  journal={IEEE Transactions on Multimedia},
+  year={2019},
+  publisher={IEEE}
+}
+```
 
